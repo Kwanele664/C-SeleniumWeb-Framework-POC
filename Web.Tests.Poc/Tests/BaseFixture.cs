@@ -1,5 +1,6 @@
 ﻿using Web.Tests.Poc.Assembly;
 using Web.Tests.Poc.Browsers;
+using Web.Tests.Poc.Reporting;
 
 namespace Web.Tests.Poc.Tests;
 
@@ -20,5 +21,6 @@ public class BaseFixture : IDisposable
     public void Dispose()
     {
         BrowserHelpers.QuitBrowser();
+        ExtentService.Instance.Flush();
     }
 }

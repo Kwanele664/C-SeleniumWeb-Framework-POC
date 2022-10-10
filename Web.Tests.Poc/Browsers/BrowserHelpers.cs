@@ -15,9 +15,19 @@ public class BrowserHelpers
     {
         _driver.Navigate().GoToUrl(url);
     }
+    
+    public string TakeScreenshotAsBase64()
+    {
+        var screenShot = ((ITakesScreenshot)_driver).GetScreenshot();
+
+        return screenShot.AsBase64EncodedString;
+    }
+
+   
 
     public void QuitBrowser()
     {
         _driver.Quit();
     }
 }
+

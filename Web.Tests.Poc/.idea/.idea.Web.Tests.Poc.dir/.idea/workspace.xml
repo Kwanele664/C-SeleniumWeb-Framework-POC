@@ -5,22 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ede6270-9249-456d-97ba-296acc399f56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/BaseFixture.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/LoginFixture.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestData/ReportPath.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Web.Tests.Poc.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Web.Tests.Poc.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.Tests.Poc.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Web.Tests.Poc.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Web.Tests.Poc.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Web.Tests.Poc.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Browsers/BrowserHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Browsers/BrowserHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reporting/ExtentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Reporting/ExtentService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reporting/ExtentTestManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Reporting/ExtentTestManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/BaseFixture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BaseFixture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/LoginFixture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/LoginFixture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Web.Tests.Poc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Web.Tests.Poc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/refint/Web.Tests.Poc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/refint/Web.Tests.Poc.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3519d294c7f14143823d2413790571685e5e00/a2/0b52ec01/ITakesScreenshot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f72ad213b3c24683b753757b5909b7c147c00/dc/6e56fb20/MediaEntityModelProvider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,6 +55,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="e2f563ae-0c5d-4fcf-9483-b062cc5915b0">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web.Tests.Poc/Test_Execution_Reports/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web.Tests.Poc/Reports/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665402653771</updated>
-      <workItem from="1665402662085" duration="2098000" />
+      <workItem from="1665402662085" duration="14891000" />
     </task>
     <servers />
   </component>

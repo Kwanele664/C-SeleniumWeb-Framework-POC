@@ -1,18 +1,18 @@
 ﻿using AventStack.ExtentReports.Reporter;
 using AventStack.ExtentReports.Reporter.Configuration;
+using Web.Tests.Poc.TestData;
 using ExtentReports = AventStack.ExtentReports.ExtentReports;
 
 namespace Web.Tests.Poc.Reporting;
 
 public static class ExtentService
 {
-    private static readonly Lazy<AventStack.ExtentReports.ExtentReports> Lazy =
-        new Lazy<AventStack.ExtentReports.ExtentReports>(() => new AventStack.ExtentReports.ExtentReports());
+    private static readonly Lazy<AventStack.ExtentReports.ExtentReports> Lazy = new(() => new AventStack.ExtentReports.ExtentReports());
     public static AventStack.ExtentReports.ExtentReports Instance => Lazy.Value;
 
     static ExtentService()
     {
-        var reporter = new ExtentHtmlReporter("get current directory" + "/Reports/")
+        var reporter = new ExtentHtmlReporter(ReportPath.GetReportFilePath())
         {
             Config =
             {
