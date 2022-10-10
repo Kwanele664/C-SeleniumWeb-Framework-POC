@@ -28,9 +28,7 @@
 
     <ItemGroup>
       <Folder Include="Assembly" />
-      <Folder Include="TestData" />
       <Folder Include="Tests" />
-      <Folder Include="Utilities" />
     </ItemGroup>
 
 </Project>
