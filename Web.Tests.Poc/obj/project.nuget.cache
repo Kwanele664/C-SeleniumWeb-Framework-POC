@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6UsaOcXu8WbMyf4lhcFeLlbe0aqMybeRr2fA+Ux7GJY/39f1povvR5qyMD8V15Kk1g2Bjl/5uKaaJwP2N9Ih9w==",
+  "dgSpecHash": "fXhM7fvOt8MnV4LVAEQDOSdVnyMX5zgbxq8IzDsWyxvzxx1LYxvhrDRNHlxIz26SgULAKvJGq2azCMqSp86VKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kwanele.nzimande\\Documents\\WebFrameworkPOC\\C-SeleniumWeb-Framework-POC\\Web.Tests.Poc\\Web.Tests.Poc.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\kwanele.nzimande\\.nuget\\packages\\dnsclient\\1.2.0\\dnsclient.1.2.0.nupkg.sha512",
     "C:\\Users\\kwanele.nzimande\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\kwanele.nzimande\\.nuget\\packages\\extentreports.core\\1.0.3\\extentreports.core.1.0.3.nupkg.sha512",
+    "C:\\Users\\kwanele.nzimande\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",
     "C:\\Users\\kwanele.nzimande\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\kwanele.nzimande\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\kwanele.nzimande\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\2.2.0\\microsoft.aspnetcore.razor.language.2.2.0.nupkg.sha512",
