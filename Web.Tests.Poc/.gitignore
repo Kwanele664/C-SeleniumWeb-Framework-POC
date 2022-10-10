@@ -1,0 +1,6 @@
+#
+# Standard gitignore
+#
+Test_Execution_Reports/
+.index.html
+.dashboard.html

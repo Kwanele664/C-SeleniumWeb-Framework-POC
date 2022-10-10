@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ede6270-9249-456d-97ba-296acc399f56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestData/ReportPath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Web.Tests.Poc.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Web.Tests.Poc.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Browsers/BrowserHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Browsers/BrowserHelpers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reporting/ExtentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Reporting/ExtentService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reporting/ExtentTestManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Reporting/ExtentTestManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/BaseFixture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BaseFixture.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/LoginFixture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/LoginFixture.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Web.Tests.Poc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Web.Tests.Poc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/refint/Web.Tests.Poc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/refint/Web.Tests.Poc.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665402653771</updated>
-      <workItem from="1665402662085" duration="14891000" />
+      <workItem from="1665402662085" duration="15308000" />
     </task>
     <servers />
   </component>
