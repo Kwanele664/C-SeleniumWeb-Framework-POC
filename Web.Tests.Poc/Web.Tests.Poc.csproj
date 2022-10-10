@@ -14,6 +14,7 @@
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
         <PackageReference Include="Selenium.Support" Version="4.5.1" />
         <PackageReference Include="Selenium.WebDriver" Version="4.5.1" />
+        <PackageReference Include="WebDriverManager" Version="2.16.0" />
         <PackageReference Include="xunit" Version="2.4.1" />
         <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -27,7 +28,6 @@
 
     <ItemGroup>
       <Folder Include="Assembly" />
-      <Folder Include="Browsers" />
       <Folder Include="TestData" />
       <Folder Include="Tests" />
       <Folder Include="Utilities" />
