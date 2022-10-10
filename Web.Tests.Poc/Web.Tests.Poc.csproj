@@ -27,7 +27,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Assembly" />
       <Folder Include="Tests" />
     </ItemGroup>
 
