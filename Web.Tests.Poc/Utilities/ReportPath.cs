@@ -2,7 +2,7 @@
 using AventStack.ExtentReports.Reporter.Configuration;
 using ExtentReports = AventStack.ExtentReports.ExtentReports;
 
-namespace Web.Tests.Poc.TestData;
+namespace Web.Tests.Poc.Utilities;
 
 public class ReportPath
 {

@@ -1,7 +1,6 @@
 ﻿using AventStack.ExtentReports.Reporter;
 using AventStack.ExtentReports.Reporter.Configuration;
-using Web.Tests.Poc.TestData;
-using ExtentReports = AventStack.ExtentReports.ExtentReports;
+using Web.Tests.Poc.Utilities;
 
 namespace Web.Tests.Poc.Reporting;
 

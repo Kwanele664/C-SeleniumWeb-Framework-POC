@@ -1,7 +1,5 @@
 ﻿using AventStack.ExtentReports;
-using System.Threading;
-using Microsoft.VisualStudio.TestPlatform.Utilities;
-using OpenQA.Selenium;
+using Web.Tests.Poc.Browsers;
 
 namespace Web.Tests.Poc.Reporting;
 
@@ -11,11 +9,10 @@ public static class ExtentTestManager
     private static readonly ThreadLocal<ExtentTest> ParentTest = new ThreadLocal<ExtentTest>();
 
     private static readonly object Synclock = new object();
-
-    // creates a parent test
+    
     public static ExtentTest CreateTest(string testName, string? description = null)
     {
-        lock (Synclock)
+        lock (Synclock) // with synclock we prevent the thread to enter the block until no other thread is executing
         {
             ParentTest.Value = ExtentService.Instance.CreateTest(testName, description);
             return ParentTest.Value;

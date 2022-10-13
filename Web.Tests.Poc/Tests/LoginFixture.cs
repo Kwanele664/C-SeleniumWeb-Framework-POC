@@ -1,6 +1,5 @@
 ﻿using AventStack.ExtentReports;
 using FluentAssertions;
-using Web.Tests.Poc.Browsers;
 using Web.Tests.Poc.Reporting;
 
 namespace Web.Tests.Poc.Tests;

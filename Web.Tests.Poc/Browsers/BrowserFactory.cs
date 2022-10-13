@@ -1,15 +1,18 @@
-﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
+﻿using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
-using WebDriverManager.DriverConfigs.Impl;
+using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Remote;
 
 namespace Web.Tests.Poc.Browsers;
 
 public class BrowserFactory
 {
+    private readonly string _remoteUrl;
+    
     //TODO Implement the constructor
-    public BrowserFactory()
+    public BrowserFactory(string remoteUrl)
     {
+        _remoteUrl = remoteUrl;
     }
 
     public IWebDriver GetDriver()
@@ -23,22 +26,35 @@ public class BrowserFactory
         {
             Browser.Chrome => GetChrome(),
             Browser.Edge => GetEdge(),
+            Browser.FireFox => GetFireFox(),
             _ => throw new ArgumentOutOfRangeException(nameof(browserName), browserName, "Invalid browser passed")
         };
     }
     
-    private static IWebDriver GetChrome()
+    private IWebDriver GetChrome()
     {
-        new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
-        
-        return new ChromeDriver();
+        var chromeOptions = new ChromeOptions();
+
+        var driver = new RemoteWebDriver(new Uri(_remoteUrl), chromeOptions);
+
+        return driver;
     }
     
-    private static IWebDriver GetEdge()
+    private IWebDriver GetEdge()
     {
-        new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
-        
-        return new EdgeDriver();
-    }
+        var edgeOptions = new EdgeOptions();
 
+        var driver = new RemoteWebDriver(new Uri(_remoteUrl), edgeOptions);
+
+        return driver;
+    }
+    
+    private IWebDriver GetFireFox()
+    {
+        var fireFoxOptions = new FirefoxOptions();
+
+        var driver = new RemoteWebDriver(new Uri(_remoteUrl), fireFoxOptions);
+
+        return driver;
+    }
 }
