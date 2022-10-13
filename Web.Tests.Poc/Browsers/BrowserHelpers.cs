@@ -1,7 +1,4 @@
-﻿using OpenQA.Selenium;
-
-namespace Web.Tests.Poc.Browsers;
-
+﻿namespace Web.Tests.Poc.Browsers;
 public class BrowserHelpers
 {
     private readonly IWebDriver _driver;

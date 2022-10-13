@@ -1,5 +1,4 @@
 ﻿namespace Web.Tests.Poc.Utilities;
-
 public class EnvironmentVariablesReader
 {
     public static string GetEnvironmentVariable(string variable)

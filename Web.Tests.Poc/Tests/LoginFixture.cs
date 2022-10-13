@@ -3,7 +3,6 @@ using FluentAssertions;
 using Web.Tests.Poc.Reporting;
 
 namespace Web.Tests.Poc.Tests;
-
 public class LoginFixture : IClassFixture<BaseFixture>
 {
     private readonly BaseFixture _fixture;
