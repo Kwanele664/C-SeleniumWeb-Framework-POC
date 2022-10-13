@@ -1,5 +1,4 @@
 ﻿namespace Web.Tests.Poc.Utilities;
-
 public static  class TestParameter
 {
     public static string Username => EnvironmentVariablesReader.GetEnvironmentVariable("TEST_USERNAME");

@@ -1,9 +1,4 @@
-﻿using AventStack.ExtentReports.Reporter;
-using AventStack.ExtentReports.Reporter.Configuration;
-using ExtentReports = AventStack.ExtentReports.ExtentReports;
-
-namespace Web.Tests.Poc.Utilities;
-
+﻿namespace Web.Tests.Poc.Utilities;
 public class ReportPath
 {
     public static string  GetReportFilePath()

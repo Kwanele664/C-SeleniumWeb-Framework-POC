@@ -1,7 +1,6 @@
 ﻿using Web.Tests.Poc.Utilities;
 
 namespace Web.Tests.Poc.TestData;
-
 public static class LoginData
 {
     private const string WebsiteUrl = "https://www.saucedemo.com/";

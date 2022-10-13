@@ -3,7 +3,6 @@ using AventStack.ExtentReports.Reporter.Configuration;
 using Web.Tests.Poc.Utilities;
 
 namespace Web.Tests.Poc.Reporting;
-
 public static class ExtentService
 {
     private static readonly Lazy<AventStack.ExtentReports.ExtentReports> Lazy = new(() => new AventStack.ExtentReports.ExtentReports());

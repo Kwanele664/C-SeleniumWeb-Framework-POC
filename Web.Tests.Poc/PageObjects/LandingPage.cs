@@ -1,7 +1,4 @@
-﻿using OpenQA.Selenium;
-
-namespace Web.Tests.Poc.PageObjects;
-
+﻿namespace Web.Tests.Poc.PageObjects;
 public class LandingPage : BasePage
 {
     private readonly IWebDriver _driver;

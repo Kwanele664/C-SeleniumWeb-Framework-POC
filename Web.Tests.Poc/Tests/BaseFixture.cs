@@ -4,7 +4,6 @@ using Web.Tests.Poc.Reporting;
 using Web.Tests.Poc.Utilities;
 
 namespace Web.Tests.Poc.Tests;
-
 public class BaseFixture : IDisposable
 {
     public readonly BrowserHelpers BrowserHelpers;

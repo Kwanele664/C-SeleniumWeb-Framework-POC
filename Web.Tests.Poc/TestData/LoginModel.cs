@@ -1,5 +1,4 @@
 ﻿namespace Web.Tests.Poc.TestData;
-
 public class LoginModel
 {
     public readonly string? Username;

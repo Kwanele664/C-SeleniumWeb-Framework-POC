@@ -1,6 +1,4 @@
-﻿
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
+﻿using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 
 namespace Web.Tests.Poc.PageObjects;

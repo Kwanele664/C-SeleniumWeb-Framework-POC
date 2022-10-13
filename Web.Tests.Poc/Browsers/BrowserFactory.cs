@@ -4,12 +4,10 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Remote;
 
 namespace Web.Tests.Poc.Browsers;
-
 public class BrowserFactory
 {
     private readonly string _remoteUrl;
     
-    //TODO Implement the constructor
     public BrowserFactory(string remoteUrl)
     {
         _remoteUrl = remoteUrl;

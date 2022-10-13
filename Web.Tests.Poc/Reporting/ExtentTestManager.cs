@@ -1,9 +1,6 @@
 ﻿using AventStack.ExtentReports;
-using Web.Tests.Poc.Browsers;
 
 namespace Web.Tests.Poc.Reporting;
-
-
 public static class ExtentTestManager
 {
     private static readonly ThreadLocal<ExtentTest> ParentTest = new ThreadLocal<ExtentTest>();

@@ -1,8 +1,6 @@
-﻿using OpenQA.Selenium;
-using Web.Tests.Poc.PageObjects;
+﻿using Web.Tests.Poc.PageObjects;
 
 namespace Web.Tests.Poc.Assembly;
-
 public class PageLoader
 {
     private readonly IWebDriver _driver;

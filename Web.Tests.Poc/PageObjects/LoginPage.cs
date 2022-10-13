@@ -1,7 +1,4 @@
-﻿using OpenQA.Selenium;
-
-namespace Web.Tests.Poc.PageObjects;
-
+﻿namespace Web.Tests.Poc.PageObjects;
 public class LoginPage : BasePage
 {
     private readonly IWebDriver _driver;
