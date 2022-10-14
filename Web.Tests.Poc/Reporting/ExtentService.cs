@@ -5,6 +5,8 @@ using Web.Tests.Poc.Utilities;
 namespace Web.Tests.Poc.Reporting;
 public static class ExtentService
 {
+    
+    // we are using Lazy loading  to delay loading or initialization until we need it.
     private static readonly Lazy<AventStack.ExtentReports.ExtentReports> Lazy = new(() => new AventStack.ExtentReports.ExtentReports());
     public static AventStack.ExtentReports.ExtentReports Instance => Lazy.Value;
 
@@ -14,7 +16,7 @@ public static class ExtentService
         {
             Config =
             {
-                Theme = Theme.Standard
+                Theme = Theme.Dark
             }
         };
         Instance.AttachReporter(reporter);

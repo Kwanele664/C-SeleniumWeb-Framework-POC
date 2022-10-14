@@ -2,15 +2,16 @@
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Remote;
+using WebDriverManager.DriverConfigs.Impl;
 
 namespace Web.Tests.Poc.Browsers;
 public class BrowserFactory
 {
     private readonly string _remoteUrl;
     
-    public BrowserFactory(string remoteUrl)
+    public BrowserFactory(/*string remoteUrl*/)
     {
-        _remoteUrl = remoteUrl;
+       // _remoteUrl = remoteUrl;
     }
 
     public IWebDriver GetDriver()
@@ -32,6 +33,7 @@ public class BrowserFactory
     private IWebDriver GetChrome()
     {
         var chromeOptions = new ChromeOptions();
+        chromeOptions.AddArguments("--no-sandbox", "--disable-popup-blocking");
 
         var driver = new RemoteWebDriver(new Uri(_remoteUrl), chromeOptions);
 
@@ -40,11 +42,9 @@ public class BrowserFactory
     
     private IWebDriver GetEdge()
     {
-        var edgeOptions = new EdgeOptions();
-
-        var driver = new RemoteWebDriver(new Uri(_remoteUrl), edgeOptions);
-
-        return driver;
+        new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
+        
+        return new ChromeDriver();
     }
     
     private IWebDriver GetFireFox()
