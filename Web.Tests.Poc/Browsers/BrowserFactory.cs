@@ -42,9 +42,9 @@ public class BrowserFactory
     
     private IWebDriver GetEdge()
     {
-        new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
+        new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
         
-        return new ChromeDriver();
+        return new EdgeDriver();
     }
     
     private IWebDriver GetFireFox()
