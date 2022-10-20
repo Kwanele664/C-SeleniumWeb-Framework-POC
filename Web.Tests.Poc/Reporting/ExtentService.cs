@@ -16,7 +16,7 @@ public static class ExtentService
         {
             Config =
             {
-                Theme = Theme.Dark
+                Theme = Theme.Standard
             }
         };
         Instance.AttachReporter(reporter);
