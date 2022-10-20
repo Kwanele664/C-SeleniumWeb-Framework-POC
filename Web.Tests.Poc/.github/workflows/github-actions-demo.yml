@@ -1,0 +1,8 @@
+﻿name: RunSeleniumTest
+run-name: ${{ github.actor }} is testing out GitHub Actions
+on: [push]
+jobs:
+  Build-DotNet-Project:
+    runs-on: ubuntu-latest
+    steps:
+      - run: dotnet build

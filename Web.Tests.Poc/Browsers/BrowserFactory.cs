@@ -9,9 +9,9 @@ public class BrowserFactory
 {
     private readonly string _remoteUrl;
     
-    public BrowserFactory(/*string remoteUrl*/)
+    public BrowserFactory(string remoteUrl)
     {
-       // _remoteUrl = remoteUrl;
+        _remoteUrl = remoteUrl;
     }
 
     public IWebDriver GetDriver()
@@ -33,10 +33,10 @@ public class BrowserFactory
     private IWebDriver GetChrome()
     {
         var chromeOptions = new ChromeOptions();
-        chromeOptions.AddArguments("--no-sandbox", "--disable-popup-blocking");
+        chromeOptions.AddArguments("--no-sandbox", "--disable-popup-blocking","--headless","--disable-dev-shm-usage");
 
         var driver = new RemoteWebDriver(new Uri(_remoteUrl), chromeOptions);
-
+        
         return driver;
     }
     

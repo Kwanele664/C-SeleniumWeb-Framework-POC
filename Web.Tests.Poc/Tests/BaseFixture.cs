@@ -11,8 +11,8 @@ public class BaseFixture : IDisposable
 
     public BaseFixture()
     {
-        var factory = new BrowserFactory();
-        var driver = factory.GetDriver(Browser.Edge);
+        var factory = new BrowserFactory(TestParameter.RemoteUrl);
+        var driver = factory.GetDriver(Browser.Chrome);
         
         BrowserHelpers = new BrowserHelpers(driver);
         PageLoader = new PageLoader(driver);

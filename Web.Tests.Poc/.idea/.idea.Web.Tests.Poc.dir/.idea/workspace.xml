@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ede6270-9249-456d-97ba-296acc399f56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Web.Tests.Poc.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Web.Tests.Poc.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Browsers/BrowserFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Browsers/BrowserFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Execution_Reports/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Execution_Reports/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Execution_Reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Execution_Reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/BaseFixture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BaseFixture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/TestParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/TestParameters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web.Tests.Poc.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Web.Tests.Poc.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Web.Tests.Poc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Web.Tests.Poc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Web.Tests.Poc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Web.Tests.Poc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/refint/Web.Tests.Poc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/refint/Web.Tests.Poc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Web.Tests.Poc.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Web.Tests.Poc.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +33,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2a925edfe5584632978e98fd8509cdf4d7a8/9a/e4a44797/ExceptionAggregator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3519d294c7f14143823d2413790571685e5e00/10/5ce11655/HttpCommandExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3519d294c7f14143823d2413790571685e5e00/70/e587c25c/FirefoxDriver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3519d294c7f14143823d2413790571685e5e00/8c/7369a0d8/WebDriver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3519d294c7f14143823d2413790571685e5e00/a2/0b52ec01/ITakesScreenshot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3519d294c7f14143823d2413790571685e5e00/c9/68c2490e/RemoteWebDriver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377b61b613ea444f826f377d9474ffca3c9a8/1b/4419f206/XunitTestCollectionRunner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377b61b613ea444f826f377d9474ffca3c9a8/4b/6d298b14/XunitTestAssemblyRunner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377b61b613ea444f826f377d9474ffca3c9a8/52/5214edcf/TestFrameworkExecutor`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377b61b613ea444f826f377d9474ffca3c9a8/5d/bdd15076/XunitTestClassRunner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377b61b613ea444f826f377d9474ffca3c9a8/68/eb6ac994/TestClassRunner`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377b61b613ea444f826f377d9474ffca3c9a8/75/77642c03/TestAssemblyRunner`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377b61b613ea444f826f377d9474ffca3c9a8/b0/9a1deb73/TestCollectionRunner`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377b61b613ea444f826f377d9474ffca3c9a8/d6/9ea30cf0/XunitTestFrameworkExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b831e75fe2a0431b84a0933948a5ee13357a8/46/058fae7e/Xunit2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f72ad213b3c24683b753757b5909b7c147c00/dc/6e56fb20/MediaEntityModelProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Browsers/BrowserFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/BaseFixture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/LoginFixture.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,19 +64,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="e2f563ae-0c5d-4fcf-9483-b062cc5915b0">
+}</component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web.Tests.Poc/Test_Execution_Reports/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -63,6 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665402653771</updated>
       <workItem from="1665402662085" duration="15308000" />
+      <workItem from="1666081739678" duration="4292000" />
     </task>
     <servers />
   </component>

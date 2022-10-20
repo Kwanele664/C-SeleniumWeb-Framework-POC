@@ -11,4 +11,6 @@ public static  class TestParameter
     public static string ProblemUsername => EnvironmentVariablesReader.GetEnvironmentVariable("PROBLEM_USERNAME");
     
     public static string PerformanceUsername => EnvironmentVariablesReader.GetEnvironmentVariable("PERFORMANCE_USERNAME");
+    
+    public static string RemoteUrl => EnvironmentVariablesReader.GetEnvironmentVariable("REMOTE_URL");
 }
